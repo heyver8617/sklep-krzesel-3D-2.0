@@ -1,0 +1,40 @@
+:root {
+    --bg-alabaster: #F6F3EC;
+    --bg-stage: #E0D7C6;
+    --bg-card: #FAF8F5;
+    --ink-primary: #1C1B18;
+    --ink-secondary: #68645E;
+    --line-hairline: #DCD6CA;
+    --accent-terracotta: #9E3321;
+}
+
+body {
+    background-color: var(--bg-alabaster);
+    color: var(--ink-primary);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+.font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.stage-3d-surface {
+    background: radial-gradient(circle at 50% 42%, #EBE3D4 0%, #D4C5B0 60%, #BFA992 100%);
+    border: 1px solid #C4B6A2;
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.modern-glass-dock {
+    background: rgba(250, 248, 245, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(28, 27, 24, 0.12);
+    box-shadow: 0 10px 28px rgba(28, 27, 24, 0.08);
+}
+
+.swatch-active {
+    box-shadow: 0 0 0 2px #FAF8F5, 0 0 0 4px #1C1B18;
+    transform: translateY(-2px);
+}
